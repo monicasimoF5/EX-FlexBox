@@ -1,0 +1,25 @@
+* {
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.navbar {
+    display: flex; /*definir un contenedor como un contenedor flex*/
+    flex-direction: row; /*dirección de los elementos flexibles dentro del contenedor de izquierda a derecha*/
+    justify-content: space-between; /*distribuye el espacio sobrante entre los elementos*/
+    align-items: center;
+    background-color: orange;
+
+}
+
+.logo {
+    text-transform: uppercase; /*texto en mayúsculas*/
+    font-style: italic; /*texto en cursiva*/
+    font-size: 50px; /*tamaño del texto*/
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.navbar-links {
+    text-decoration: none;
+    margin-right: 30px;
+}
